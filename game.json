@@ -1,164 +1,233 @@
 {
-    "passages": [
-      {
-        "text": "You are standing at the end of a road before a small brick building. Around you is a forest.  A small stream flows out of the building and down a gully.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Road",
-        "pid": "1",
-        "position": {
-          "x": "412",
-          "y": "189"
+  "passages": [
+    {
+      "text": "You have entered the labyrinth. You grab a torch, and you can see several passageways up ahead. Which ever path you choose may decide your fate!\n\n[[Go North -> Crumbled Hallway]]\n[[Go East -> Small Hole]]\n[[Go West -> Dark Tunnel]]\n[[Gate]] ",
+      "links": [
+        {
+          "name": "Go North ",
+          "link": " Crumbled Hallway",
+          "pid": "2"
+        },
+        {
+          "name": "Go East ",
+          "link": " Small Hole",
+          "pid": "3"
+        },
+        {
+          "name": "Go West ",
+          "link": " Dark Tunnel",
+          "pid": "4"
+        },
+        {
+          "name": "Gate",
+          "link": "Gate",
+          "pid": "11"
         }
-      },
-      {
-        "text": "You are in open forest, with a deep valley to one side.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Road]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Forest",
-        "pid": "2",
-        "position": {
-          "x": "187",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are inside a building, a well house for a large spring.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Road]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Road",
-            "pid": "1"
-          }
-        ],
-        "name": "Building",
-        "pid": "3",
-        "position": {
-          "x": "337",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are in a valley in the forest beside a stream tumbling along a rocky bed.\n\n[[Go North->Road]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Valley",
-        "pid": "4",
-        "position": {
-          "x": "487",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You have walked up a hill, still in the forest.  The road slopes back\ndown the other side of the hill.  There is a building in the distance.\n\n[[Go North->Forest]]\n[[Go East->Road]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Hill",
-        "pid": "5",
-        "position": {
-          "x": "637",
-          "y": "339"
-        }
+      ],
+      "name": " Main Hallway",
+      "pid": "1",
+      "position": {
+        "x": "406",
+        "y": "322"
       }
-    ],
-    "name": "Adventure",
-    "startnode": "1",
-    "creator": "Twine",
-    "creator-version": "2.3.7",
-    "ifid": "1A8FFB75-8072-4382-BCAF-ADFA65B09385"
-  }
+    },
+    {
+      "text": "You chose to follow the crumbled hallway from the main room. You can smell fire; torches are burning up ahead! As you get closer, you see two more passageways to take.\n\n[[Go North -> Chamber]]\n[[Go East -> Long Hallway]]\n[[Go South -> Main Hallway]]",
+      "links": [
+        {
+          "name": "Go North ",
+          "link": " Chamber",
+          "pid": "5"
+        },
+        {
+          "name": "Go East ",
+          "link": " Long Hallway",
+          "pid": "6"
+        },
+        {
+          "name": "Go South ",
+          "link": " Main Hallway",
+          "pid": "1"
+        }
+      ],
+      "name": " Crumbled Hallway",
+      "pid": "2",
+      "position": {
+        "x": "76",
+        "y": "423.6666666666667"
+      }
+    },
+    {
+      "text": "So you decided on going through the small hole in the wall. As you enter, you can hear sounds of running water. Maybe you can follow the water and find your way out of here!\n\n[[Go North ->  River]] \n[[Go West -> Dark Tunnel]]\n[[Go South -> Main Hallway]]",
+      "links": [
+        {
+          "name": "Go North ",
+          "link": "  River",
+          "pid": "7"
+        },
+        {
+          "name": "Go West ",
+          "link": " Dark Tunnel",
+          "pid": "4"
+        },
+        {
+          "name": "Go South ",
+          "link": " Main Hallway",
+          "pid": "1"
+        }
+      ],
+      "name": " Small Hole",
+      "pid": "3",
+      "position": {
+        "x": "407.6666666666667",
+        "y": "465.33333333333337"
+      }
+    },
+    {
+      "text": "It is very dark down this tunnel! You can only get through by following the walls with your hands to make sure you want to go the correct ways. However, it does appear to echo a bit more each time as you get further.\n\n[[Go North -> Darkness]]\n[[Go West -> Void]]\n[[Go South -> Main Hallway]]\n[[Go East -> Small Hole]]",
+      "links": [
+        {
+          "name": "Go North ",
+          "link": " Darkness",
+          "pid": "8"
+        },
+        {
+          "name": "Go West ",
+          "link": " Void",
+          "pid": "9"
+        },
+        {
+          "name": "Go South ",
+          "link": " Main Hallway",
+          "pid": "1"
+        },
+        {
+          "name": "Go East ",
+          "link": " Small Hole",
+          "pid": "3"
+        }
+      ],
+      "name": " Dark Tunnel",
+      "pid": "4",
+      "position": {
+        "x": "589.3333333333334",
+        "y": "467"
+      }
+    },
+    {
+      "text": "You entered the chamber, but have reached a dead end. Turn back immediately! \n\n[[Go South -> Crumbled Hallway]]",
+      "links": [
+        {
+          "name": "Go South ",
+          "link": " Crumbled Hallway",
+          "pid": "2"
+        }
+      ],
+      "name": " Chamber",
+      "pid": "5",
+      "position": {
+        "x": "0",
+        "y": "612.0000000000001"
+      }
+    },
+    {
+      "text": "You continued on down the very long hallway, only to realize that there is a wall at the end and no where else to go. Turn around!\n\n[[Go South -> Crumbled Hallway]]",
+      "links": [
+        {
+          "name": "Go South ",
+          "link": " Crumbled Hallway",
+          "pid": "2"
+        }
+      ],
+      "name": " Long Hallway",
+      "pid": "6",
+      "position": {
+        "x": "179.33333333333326",
+        "y": "617.0000000000001"
+      }
+    },
+    {
+      "text": "As you continue on to the river, you see a small dingy and some light near the end of the river. You can hop in and see where the river takes you, or turn back around now!\n\n[[Go North -> Light]]\n[[Go South -> Small Hole]] ",
+      "links": [
+        {
+          "name": "Go North ",
+          "link": " Light",
+          "pid": "10"
+        },
+        {
+          "name": "Go South ",
+          "link": " Small Hole",
+          "pid": "3"
+        }
+      ],
+      "name": "  River",
+      "pid": "7",
+      "position": {
+        "x": "407.6666666666667",
+        "y": "615.3333333333334"
+      }
+    },
+    {
+      "text": "The darkness has consumed all visible elements around you. You have reached a dead end and need to go back the way you came.\n\n[[Go South -> Dark Tunnel]]",
+      "links": [
+        {
+          "name": "Go South ",
+          "link": " Dark Tunnel",
+          "pid": "4"
+        }
+      ],
+      "name": " Darkness",
+      "pid": "8",
+      "position": {
+        "x": "589.3333333333334",
+        "y": "617"
+      }
+    },
+    {
+      "text": "Rather than choosing to go down a the dark path, you chose the void. You cannot see anything and you get to the end, where the wall ends and emptiness fills the room. In order to not get lost, you turn back around.\n\n[[Go South -> Dark Tunnel]]",
+      "links": [
+        {
+          "name": "Go South ",
+          "link": " Dark Tunnel",
+          "pid": "4"
+        }
+      ],
+      "name": " Void",
+      "pid": "9",
+      "position": {
+        "x": "709.3333333333334",
+        "y": "617"
+      }
+    },
+    {
+      "text": "You successfully followed the river to reach the light. It led you to the end of the labyrinth! You made it! You exit the dingy, and never look back!",
+      "name": " Light",
+      "pid": "10",
+      "position": {
+        "x": "402.6666666666667",
+        "y": "772"
+      }
+    },
+    {
+      "text": "You have been left untied, on the floor in front of this gigantic doorway. It appears to be a labyrinth! Find your way through the labyrinth by choosing the right directions.\n\n[[Go North -> Main Hallway]]",
+      "links": [
+        {
+          "name": "Go North ",
+          "link": " Main Hallway",
+          "pid": "1"
+        }
+      ],
+      "name": "Gate",
+      "pid": "11",
+      "position": {
+        "x": "415",
+        "y": "181.62331899007165"
+      }
+    }
+  ],
+  "name": "The Labyrinth",
+  "startnode": "11",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "9318BC6D-1098-437C-8742-2024E4DB661E"
+}
