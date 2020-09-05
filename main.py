@@ -32,7 +32,7 @@ def update(current, game_desc, choice):
     if choice == "":
         return current
     for l in current["links"]:
-        if choice == l["name"].lower():
+        if choice == l["name"].lower().strip():
             current = find_passage(game_desc, l["pid"])
             if current:
                 return current
@@ -46,7 +46,7 @@ def render(current):
 
 def get_input(current):
     choice = input("\nWhat would you like to do? (type quit to exit) ")
-    choice = choice.lower()
+    choice = choice.lower().strip()
     if choice in ["quit","q","exit"]:
         return "quit"
     return choice
